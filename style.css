@@ -82,4 +82,33 @@ ul{
     font-size: 16px;
     font-weight: 600;
     color: #fff;
+    cursor: pointer;
+}
+.slider{
+    margin-top: 156px;
+}
+.slider__textButton{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.textButton__text{
+    display: flex;
+    align-items: center;
+}
+.textButton__text h1{
+    font-size: 30px;
+    color: #343434;
+}
+.textButton__text img{
+    margin-right: 40px;
+    max-width: 100px;
+    max-height: 13px;
+}
+.slider__button{
+    height: 55px;
+    width: 55px;
+    border: 2px solid #005BC1;
+    background: none;
+    cursor: pointer;
 }
