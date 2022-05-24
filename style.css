@@ -51,9 +51,18 @@ header{
 ul{
     list-style: none;
 }
+.container__main{
+    display: flex;
+}
 .content__main{
     margin-left: auto;
     margin-right: auto;
+}
+.content__rectangle{
+    background-color: rgb(0, 91, 193, 0.6);
+    width: 444px;
+    height: 720px;
+
 }
 .content__main h1{
     margin-bottom: 40px;
