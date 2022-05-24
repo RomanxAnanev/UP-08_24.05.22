@@ -117,3 +117,33 @@ ul{
     background: none;
     cursor: pointer;
 }
+.slider__content{
+    display: flex;
+    justify-content: space-between;
+}
+.slide__text{
+    background-color: #fff;
+    width: 250px;
+    height: 110px;
+    position: absolute;
+}
+.slide__text h1{
+    color: #343434;
+    font-size: 18px;
+}
+.slide__text p{
+    color: #343434;
+    font-size: 14px;
+    font-weight: 300px;
+}
+.image{
+    width: 540px;
+    height: 400px;
+}
+.catalog__title{
+    display: flex;
+}
+.catalog__title h1{
+    color: #343434;
+    font-size: 18px;
+}
