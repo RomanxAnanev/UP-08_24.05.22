@@ -97,6 +97,9 @@ ul{
 .slider{
     margin-top: 156px;
 }
+.content__slide{
+    max-height: 400px;
+}
 .slider__textButton{
     display: flex;
     justify-content: space-between;
@@ -183,6 +186,7 @@ ul{
 .catalogContent__img{
     display: flex;
     justify-content: space-between;
+    max-height: 300px;
 }
 .catalogContent__img img{
     width: 350px;
@@ -224,6 +228,13 @@ ul{
 }
 section{
     max-height: 505px;
+}
+
+
+
+
+.news{
+    margin-bottom: 120px;
 }
 .news__content{
     max-height: 242px;
@@ -297,4 +308,55 @@ section{
 }
 .news2{
     margin-right: 60px;
+}
+
+
+
+.footer{
+    background-color: #005BC1;
+}
+.footer_top{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.footer_top h3{
+    font-family: "oswald";
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.footer_top p,a{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 14px;
+}
+.footer_mid{
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer_mid ul{
+    margin-right: 140px;
+    line-height: 24px;
+    list-style-type: none;
+}
+.footer_mid a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 300;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+.footer_bottom p{
+    color: white;
+    font-family: 'Open Sans';
 }
