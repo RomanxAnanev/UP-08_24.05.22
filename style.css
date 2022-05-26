@@ -15,7 +15,9 @@ p{
     color: #fff;
 }
 header{
-    background: url(img/bg.png);
+    background: url(img/bg.png) no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 .container{
     max-width: 1110px;
@@ -125,7 +127,11 @@ ul{
     background-color: #fff;
     width: 250px;
     height: 110px;
-    position: absolute;
+    top: -150px;
+    left: 260px;
+    
+    position: relative;
+    justify-content: center;
 }
 .slide__text h1{
     color: #343434;
@@ -142,8 +148,52 @@ ul{
 }
 .catalog__title{
     display: flex;
+    align-items: center;
+    margin-top: 150px;
 }
 .catalog__title h1{
     color: #343434;
+    font-size: 30px;
+}
+.catalog__title img{
+    margin-right: 40px;
+    max-width: 100px;
+    max-height: 13px;
+}
+.catalogContent__text{
+    display: flex;
+    justify-content: center;
+}
+.catalogContent__text h1{
+    color: #343434;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+.catalogContent__text h1:first-child{
+    margin-right: 50px;
+}
+.catalogContent__text h1:hover{
+    text-decoration: underline;
+    color: #005BC1;
+}
+.catalogContent__img{
+    display: flex;
+    justify-content: space-between;
+}
+.catalogContent__img img{
+    width: 350px;
+    height: 300px;
+}
+.catalog__textimg{
+
+}
+.catalog__textimg h1{
+    background-color: #005BC1;
+    width: 265px;
+    height: 86px;
     font-size: 18px;
+    top: -110px;
+    left: 82px;
+    position: relative;
 }
