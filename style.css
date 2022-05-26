@@ -5,6 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-family: Oswald;
     color: #fff;
@@ -189,10 +192,14 @@ ul{
 
 }
 .catalog__textimg h1{
+    font-size: 18px;
+    position: relative;
+    margin-left: 21px;
+}
+.text__bg{
     background-color: #005BC1;
     width: 265px;
     height: 86px;
-    font-size: 18px;
     top: -110px;
     left: 82px;
     position: relative;
