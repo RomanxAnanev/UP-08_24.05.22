@@ -17,6 +17,9 @@ p{
     font-size: 14px;
     color: #fff;
 }
+
+
+
 header{
     background: url(img/bg.png) no-repeat;
     width: 100%;
@@ -94,6 +97,11 @@ ul{
     color: #fff;
     cursor: pointer;
 }
+
+
+
+
+
 .slider{
     margin-top: 156px;
 }
@@ -166,6 +174,11 @@ ul{
     max-width: 100px;
     max-height: 13px;
 }
+
+
+
+
+
 .catalogContent__text{
     display: flex;
     justify-content: center;
@@ -231,7 +244,16 @@ section{
 }
 
 
+.rent{
 
+}
+.rent__maintText{
+    color: #343434;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 350px;
+}
 
 .news{
     margin-bottom: 120px;
