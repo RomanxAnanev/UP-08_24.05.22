@@ -149,16 +149,16 @@ ul{
     width: 540px;
     height: 400px;
 }
-.catalog__title{
+.title{
     display: flex;
     align-items: center;
     margin-top: 150px;
 }
-.catalog__title h1{
+.title h1{
     color: #343434;
     font-size: 30px;
 }
-.catalog__title img{
+.title img{
     margin-right: 40px;
     max-width: 100px;
     max-height: 13px;
@@ -203,4 +203,23 @@ ul{
     top: -110px;
     left: 82px;
     position: relative;
+}
+.news__button{
+    background-color: #005BC1;
+    height: 51px;
+    width: 190px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 150px;
+}
+.news__titleButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    max-height: 505px;
 }
