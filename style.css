@@ -271,11 +271,12 @@ section{
     color: #343434;
     margin-top: 20px;
 }
-.newsContent__img{
+
+.newsContent__img2{
     display: flex;
     margin-top: 20px;
 }
-.newsContent__img p{
+.newsContent__img2 p{
     color: #979797;
     margin-top: auto;
     margin-left: 25px;
